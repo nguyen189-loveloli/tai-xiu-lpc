@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tài Xỉu LPC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Bạn có thể thêm logo tại đây nếu có -->
+    <h1>Game Tài Xỉu - Loli_Pussy_Coin (LPC)</h1>
+  </header>
+  <div class="container">
+    <div class="balance">
+      Số dư: <span id="balance">100</span> LPC
+    </div>
+    <div class="betting">
+      <input type="number" id="bet" placeholder="Nhập số LPC cược" min="1">
+      <button onclick="playGame('tài')">Tài</button>
+      <button onclick="playGame('xỉu')">Xỉu</button>
+    </div>
+    <div id="result"></div>
+    <h2>Lịch sử cược</h2>
+    <ul id="history"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
